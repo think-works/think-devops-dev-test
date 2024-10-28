@@ -1,0 +1,36 @@
+name: Fail
+
+on:
+  workflow_dispatch:
+    inputs:
+      version_id:
+        required: true
+        default: think
+        type: string
+      product:
+        required: true
+        type: string
+      name:
+        required: true
+        type: string
+      version:
+        required: true
+        type: string
+
+jobs:
+
+  build:
+    runs-on: [self-hosted, linux, x64, think]
+    steps:
+      - uses: actions/checkout@v3
+
+      - run: |
+          echo "Fail Build ${{ inputs.version_id }} ${{ inputs.product }} ${{ inputs.name }} ${{ inputs.version }}"
+          tar zxvf not_exist.tar.gz
+          
+      - name: Push Tag
+        uses: EndBug/add-and-commit@v9
+        with:
+          message: 'Release ${{ inputs.version }}'
+          tag: 'v${{ inputs.version }}'
+          tag_push: '--force'
