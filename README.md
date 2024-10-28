@@ -1,6 +1,6 @@
 # think-devops-dev-test
 
-脚手架-前端应用
+2
 
 请按需修改：
 
