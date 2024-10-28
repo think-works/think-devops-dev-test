@@ -1,0 +1,17 @@
+{
+  "success": true,
+  "data": {
+    "workspaceId": "w00001",
+    "path": "default",
+    "workspaceName": "默认",
+    "description": "默认",
+    "owner": {
+      "userId": "348860",
+      "loginName": "zhubajie",
+      "nickName": "猪八戒",
+      "status": 1
+    },
+    "gmtCreate": 1704973374078,
+    "gmtUpdate": 1704983760755
+  }
+}

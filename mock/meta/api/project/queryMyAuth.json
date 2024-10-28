@@ -1,0 +1,15 @@
+{
+  "success": true,
+  "data": {
+    "workspaceId": "w00001",
+    "projectId": "90efa6",
+    "userId": "u00001",
+    "authCodes": [
+      "AUTH_PROJECT_CONFIG",
+      "AUTH_MODULE_MANAGE",
+      "AUTH_CASE_MANAGE",
+      "AUTH_CASE_EXECUTE",
+      "AUTH_BUG_CREATE"
+    ]
+  }
+}

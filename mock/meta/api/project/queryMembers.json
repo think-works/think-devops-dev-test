@@ -1,0 +1,37 @@
+{
+  "success": true,
+  "data": [
+    {
+      "userId": "u00001",
+      "loginName": "root",
+      "nickName": "玉皇大帝",
+      "workspaceId": "w00001",
+      "projectId": "90efa6",
+      "roles": [
+        {
+          "code": "ROLE_TEST_MANAGER",
+          "label": "测试经理"
+        }
+      ]
+    },
+    {
+      "userId": "2328a2",
+      "loginName": "sunwukong",
+      "nickName": "孙悟空",
+      "workspaceId": "w00001",
+      "projectId": "90efa6",
+      "roles": [
+        {
+          "code": "ROLE_DEV",
+          "label": "开发",
+          "auths": []
+        },
+        {
+          "code": "ROLE_TEST",
+          "label": "测试",
+          "auths": []
+        }
+      ]
+    }
+  ]
+}

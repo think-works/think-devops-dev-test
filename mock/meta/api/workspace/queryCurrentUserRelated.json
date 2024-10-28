@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "data": [
+    {
+      "workspaceId": "w00001",
+      "path": "default",
+      "workspaceName": "默认",
+      "description": "默认",
+      "owner": {
+        "userId": "u00001",
+        "loginName": "root",
+        "nickName": "玉皇大帝",
+        "status": 1
+      },
+      "gmtCreate": 1704973374078,
+      "gmtUpdate": 1704983760755
+    },
+    {
+      "workspaceId": "w00002",
+      "path": "default2",
+      "workspaceName": "默认2",
+      "description": "默认2",
+      "owner": {
+        "userId": "7e53f8",
+        "loginName": "tangseng",
+        "nickName": "唐僧",
+        "status": 1
+      },
+      "gmtCreate": 1704973374078,
+      "gmtUpdate": 1704983760755
+    }
+  ]
+}

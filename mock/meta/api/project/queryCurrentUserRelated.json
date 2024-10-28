@@ -1,0 +1,23 @@
+{
+  "success": true,
+  "data": [
+    {
+      "workspaceId": "w00001",
+      "projectId": "90efa6",
+      "path": "west",
+      "projectName": "西游记",
+      "description": "你挑着担，我牵着马啊",
+      "gmtCreate": 1704984096358,
+      "gmtUpdate": 1704984096358
+    },
+    {
+      "workspaceId": "w00002",
+      "projectId": "xxxxxx",
+      "path": "west2",
+      "projectName": "西游记2",
+      "description": "你挑着担，我牵着马啊2",
+      "gmtCreate": 1704984096358,
+      "gmtUpdate": 1704984096358
+    }
+  ]
+}

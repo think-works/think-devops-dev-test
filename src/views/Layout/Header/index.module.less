@@ -1,0 +1,29 @@
+@import "@/styles/utils.less";
+
+.header {
+  .maximize {
+    flex: auto;
+    display: flex;
+    align-items: stretch;
+  }
+
+  .topMenu {
+    // 水平菜单会自适应宽度，造成自动收起，通过设置极小的 flex-grow 绕过
+    // https://github.com/react-component/menu/issues/148
+    // https://developer.mozilla.org/en-US/docs/Web/CSS/flex#none
+    flex: none;
+    flex-grow: 0.001;
+  }
+}
+
+.topMenu {
+  background-color: transparent;
+  &:global(.@{ant-prefix}-menu-horizontal) {
+    border-bottom: 1px solid transparent;
+  }
+  :global(.@{ant-prefix}-menu-submenu) {
+    :global(.@{ant-prefix}-menu-submenu-title) a {
+      color: inherit;
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "success": true,
+  "data": {
+    "workspaceId": "w00001",
+    "globalTitle": "Think",
+    "meta": {
+      "name": "meta",
+      "menu": "系统设置",
+      "title": "系统设置平台"
+    },
+    "products": [
+      {
+        "name": "load",
+        "menu": "性能测试",
+        "title": "性能测试平台"
+      },
+      {
+        "name": "apitest",
+        "menu": "接口测试",
+        "title": "接口测试平台"
+      },
+      {
+        "name": "quality",
+        "menu": "测试管理",
+        "title": "测试管理平台"
+      }
+    ],
+    "dictionary": {
+      "WORKSPACE": "工作空间",
+      "PROJECT": "项目",
+      "SERVICE": "服务",
+      "DIRECTORY": "模块"
+    }
+  }
+}

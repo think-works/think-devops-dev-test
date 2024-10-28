@@ -1,0 +1,16 @@
+{
+  "success": true,
+  "data": {
+    "userId": "u00001",
+    "loginName": "root",
+    "nickName": "玉皇大帝",
+    "workspaceId": "w00001",
+    "projectId": "90efa6",
+    "roles": [
+      {
+        "code": "ROLE_TEST_MANAGER",
+        "label": "测试经理"
+      }
+    ]
+  }
+}

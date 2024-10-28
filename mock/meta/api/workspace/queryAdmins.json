@@ -1,0 +1,37 @@
+{
+  "success": true,
+  "data": [
+    {
+      "userId": "u00001",
+      "loginName": "root",
+      "nickName": "玉皇大帝",
+      "admin": true,
+      "workspaceId": "w00001",
+      "owner": true
+    },
+    {
+      "userId": "7e53f8",
+      "loginName": "tangseng",
+      "nickName": "唐僧",
+      "admin": true,
+      "workspaceId": "w00001",
+      "owner": false
+    },
+    {
+      "userId": "348860",
+      "loginName": "zhubajie",
+      "nickName": "猪八戒",
+      "admin": true,
+      "workspaceId": "w00001",
+      "owner": false
+    },
+    {
+      "userId": "76f6c7",
+      "loginName": "shaseng",
+      "nickName": "沙僧",
+      "admin": true,
+      "workspaceId": "w00001",
+      "owner": false
+    }
+  ]
+}

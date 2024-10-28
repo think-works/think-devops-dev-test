@@ -1,0 +1,12 @@
+{
+  "success": true,
+  "data": {
+    "passwordLogin": true,
+    "workspace": {
+      "multi": false,
+      "defaultId": "w00001",
+      "defaultPath": "default"
+    },
+    "products": ["quality", "apitest", "load"]
+  }
+}

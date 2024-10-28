@@ -1,0 +1,11 @@
+{
+  "success": true,
+  "data": {
+    "userId": "u00001",
+    "loginName": "root",
+    "nickName": "玉皇大帝",
+    "admin": true,
+    "workspaceId": "w00001",
+    "owner": true
+  }
+}

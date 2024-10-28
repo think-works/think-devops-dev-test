@@ -1,0 +1,10 @@
+{
+  "success": true,
+  "data": {
+    "workspaceId": "w00001",
+    "projectId": "90efa6",
+    "serviceId": "cif",
+    "serviceName": "会员信息",
+    "description": "管理会员信息，提供高性能、高可靠的查询"
+  }
+}

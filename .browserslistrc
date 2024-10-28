@@ -1,0 +1,15 @@
+# https://cn.vitejs.dev/guide/build#browser-compatibility
+# https://github.com/vitejs/vite/tree/main/packages/plugin-legacy#targets
+# https://ant.design/docs/react/compatible-style-cn#where-%E9%80%89%E6%8B%A9%E5%99%A8
+
+[production]
+defaults
+Chrome 88
+Firefox 78
+Safari 14
+Edge 88
+
+[development]
+last 2 chrome version
+last 2 firefox version
+last 2 safari version
