@@ -1,4 +1,4 @@
-name: Empty Action
+name: dev
 
 on: 
   push:
