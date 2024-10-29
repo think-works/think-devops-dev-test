@@ -13,3 +13,10 @@ jobs:
     steps:
       - name: Empty Step
         run: echo "This is an empty step.(dev yaml)"
+      - name: Push Tag
+        uses: ncipollo/release-action@v1
+        with:
+          allowUpdates: true
+          commit: ${{ github.sha }}
+          tag: v${{ inputs.version }}
+          body: Release v${{ inputs.version }}
