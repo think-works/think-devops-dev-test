@@ -39,9 +39,9 @@
 
 # 专有名词
 
-`Platform` 平台 - 包含公司所有产品的集合  
-`Product` 产品 - 压测/自动化等具体的系统  
-`Workspace` 工作空间 - 跨产品的租户纬度隔离  
+`Platform` 平台 - 包含公司所有产品的集合
+`Product` 产品 - 压测/自动化等具体的系统
+`Workspace` 工作空间 - 跨产品的租户纬度隔离
 `Project` 项目 - 跨产品的业务纬度隔离
 
 # 路由结构
@@ -81,7 +81,7 @@ sh -eux post-build.sh
 
 # 环境配置
 
-`.env` 通用配置  
-`.env.local` 本地配置(不纳入版本管理)  
-`.env.development` 开发配置  
+`.env` 通用配置
+`.env.local` 本地配置(不纳入版本管理)
+`.env.development` 开发配置
 `.env.production` 打包配置
